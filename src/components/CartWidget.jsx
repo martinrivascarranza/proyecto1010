@@ -1,12 +1,11 @@
+// src/components/CartWidget.jsx
 
 import React from 'react';
-import { FaShoppingCart } from 'react-icons/fa';
 
 const CartWidget = () => {
   return (
-    <div className='cart'>
-      <FaShoppingCart />
-      <span>3</span> 
+    <div style={{ cursor: 'pointer' }}>
+      🛒5
     </div>
   );
 };

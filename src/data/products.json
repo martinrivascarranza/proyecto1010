@@ -1,0 +1,146 @@
+[
+  {
+      "id": 1,
+      "title": "leggin azul marino",
+      "size": "fit",
+      "price": 15,
+      "stock": 10,
+      "img": "legginazulmarino.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 2,
+      "title": "Leggin Blanco",
+      "size": "Fit",
+      "price": 10,
+      "stock": 15,
+      "img": "legginblanco.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 3,
+      "title": "Leggin Castano",
+      "size": "Fit",
+      "price": 20,
+      "stock": 9,
+      "img": "leggincastano.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 4,
+      "title": "Legin Cielo",
+      "size": "Fit",
+      "price": 18,
+      "stock": 10,
+      "img": "leggincielo.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 5,
+      "title": "Leggin Gris",
+      "size": "fit",
+      "price": 17,
+      "stock": 10,
+      "img": "leggingris.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 6,
+      "title": "Legin Leopardo",
+      "size": "fit",
+      "price": 17,
+      "stock": 10,
+      "img": "legginleopardo.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 7,
+      "title": "Leggin Morado",
+      "size": "fit",
+      "price": 18,
+      "stock": 10,
+      "img": "legginmorado.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 8,
+      "title": "Leggin Naranja",
+      "size": "fit",
+      "price": 18,
+      "stock": 10,
+      "img": "legginnaranja.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 9,
+      "title": "Leggin Negro",
+      "size": "fit",
+      "price": 16,
+      "stock": 10,
+      "img": "legginnegro.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 10,
+      "title": "Leggin Negro Vino",
+      "size": "fit",
+      "price": 15,
+      "stock": 20,
+      "img": "legginnegrovino.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 11,
+      "title": "Leggin Plateado",
+      "size": "fit",
+      "price": 15,
+      "stock": 20,
+      "img": "legginplateado.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 12,
+      "title": "Leggin Pride",
+      "size": "fit",
+      "price": 19,
+      "stock": 6,
+      "img": "legginpride.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 13,
+      "title": "Leggin Rosado",
+      "size": "fit",
+      "price": 19,
+      "stock": 6,
+      "img": "legginrosado.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 14,
+      "title": "Leggin Verde",
+      "size": "fit",
+      "price": 13,
+      "stock": 10,
+      "img": "legginverde.jpg",
+      "category": "sport"
+  },
+  {
+      "id": 15,
+      "title": "Leggin Verde Agua",
+      "size": "fit",
+      "price": 15,
+      "stock": 10,
+      "img": "legginverdeagua.jpg",
+      "category": "sport"
+  },
+  {
+    "id": 16,
+      "title": "Leggin Vinotinto",
+      "size": "fit",
+      "price": 15,
+      "stock": 10,
+      "img": "legginvinotinto.jpg",
+      "category": "sport"
+  }
+]

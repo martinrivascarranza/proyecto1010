@@ -1,14 +1,24 @@
-
 import React from 'react';
-import NavBar from './components/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import ItemListContainer from './components/ItemListContainer';
+import ItemDetailsContainer from './components/ItemDetailsContainer';
+import Banner from './components/Banner';
+
+
+
 
 function App() {
   return (
-    <div>
-      <NavBar/>
-      <ItemListContainer greeting="Bienvenido a 10:10!" />
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Banner/>
+      <Routes>
+        <Route path="/" element={<ItemListContainer />} />
+        <Route path="/category/:categoryId" element={<ItemListContainer />} />
+        <Route path="/item/:itemId" element={<ItemDetailsContainer />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

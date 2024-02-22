@@ -1,0 +1,14 @@
+/* src/components/Banner.css */
+
+.banner {
+  width: 105%;
+  height: 547px; /* Ajusta esto según tus necesidades */
+  background-image: url('/imagenes/cover.jpg'); /* Cambia esto por la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Ajusta el color del texto según tu diseño */
+  margin-top: 0px;
+}

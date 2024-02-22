@@ -1,22 +1,23 @@
 
 import React from 'react';
-import CartWidget from './CartWidget'; 
+import { Link } from 'react-router-dom';
+import CartWidget from './CartWidget';
 import './styles/Navbar.css';
 
-
-const NavBar = () => {
+const Navbar = () => {
   return (
-    <nav>
-      <h1>10:10</h1>
-      <div className="nav-links">
-        <a href="/">Home</a>
-        <a href="/damas">Damas</a>
-        <a href="/caballeros">Caballeros</a>
-        <a href="/contacto">Contacto</a>
+    <nav className="navbar">
+      <Link className="navbar-brand" to="/">10:10</Link>
+      <div className="navbar-links-container">
+        <div className="navbar-links">
+          <Link className="nav-link" to="/" style={{ color: 'black' }}>Home</Link>
+          <Link className="nav-link" to="/category/damas" style={{ color: 'black' }}>Damas</Link>
+          <Link className="nav-link" to="/category/caballeros" style={{ color: 'black' }}>Caballeros</Link>
+          <CartWidget />
+        </div>
       </div>
-      <CartWidget />
-    </nav>
+      </nav>
   );
 };
 
-export default NavBar;
+export default Navbar;
