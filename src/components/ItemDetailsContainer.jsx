@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import products from '../data/products.json';
+import ItemDetail from './ItemDetail';
 
 const ItemDetailContainer = () => {
   const { itemId } = useParams();
@@ -17,12 +18,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div className="item-detail">
-      <img src={`/imagenes/${item.img}`} alt={item.title} />
-      <h2>{item.title}</h2>
-      <p>{item.description}</p>
-      {item.size && <p>Tamaño: {item.size}</p>}
-      <p>Precio: ${item.price}</p>
-      {/* Agrega aquí más detalles según sea necesario */}
+      <ItemDetail item={item} />
     </div>
   );
 };

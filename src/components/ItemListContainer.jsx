@@ -1,29 +1,36 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import products from '../data/products.json'; 
 import '../components/styles/ItemListContainer.css';
+import ItemList from './ItemList';
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
-
+  const { categoryId } = useParams();
   useEffect(() => {
-    setItems(products);
-  }, []);
+    
+    const fetchProducts = () => {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          const filteredProducts = categoryId ?
+            products.filter(product => product.category === categoryId) :
+            products;
+          resolve(filteredProducts);
+        }, 500); 
+      });
+    };
+
+    fetchProducts().then(data => {
+      setItems(data);
+    });
+  }, [categoryId]); 
 
   return (
     <div className="grid-container">
-      {items.map((item) => (
-        <div key={item.id} className="card">
-          <h2>{item.title}</h2>
-          <Link to={`/item/${item.id}`}>
-            <img src={`/imagenes/${item.img}`} alt={item.title} style={{cursor: "pointer"}} />
-          </Link>
-          {item.size && <p>Tamaño: {item.size}</p>}
-          <p>Precio: ${item.price}</p>
-        </div>
-      ))}
+      <ItemList items={items} />
     </div>
   );
-};
+};;
 
 export default ItemListContainer;
+

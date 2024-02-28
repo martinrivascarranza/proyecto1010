@@ -1,0 +1,64 @@
+/*Ajustar el Tamaño y Estilo de la Imagen*/
+
+.detail-image {
+  max-width: 300px;
+  height: auto; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  margin-right: 20px; 
+}
+
+/*Diseñar la Información del Producto*/
+
+.item-detail {
+  display: flex;
+  align-items: center; 
+  max-width: 800px;
+  margin: auto; 
+  padding: 20px; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+  border-radius: 10px; 
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column; 
+}
+
+
+/* Ajustar los Títulos y Textos */
+
+.detail-title {
+  font-size: 24px; 
+  margin-bottom: 10px;
+}
+
+.detail-price {
+  font-size: 20px; 
+  color: #333;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.detail-description {
+  font-size: 16px; 
+  color: #666;
+}
+
+/* botones de acción*/
+
+.action-button {
+  background-color: #007bff; 
+  color: white; 
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+

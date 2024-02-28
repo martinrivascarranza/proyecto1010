@@ -6,7 +6,7 @@
       "price": 15,
       "stock": 10,
       "img": "legginazulmarino.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 2,
@@ -15,7 +15,7 @@
       "price": 10,
       "stock": 15,
       "img": "legginblanco.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 3,
@@ -24,7 +24,7 @@
       "price": 20,
       "stock": 9,
       "img": "leggincastano.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 4,
@@ -33,7 +33,7 @@
       "price": 18,
       "stock": 10,
       "img": "leggincielo.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 5,
@@ -42,7 +42,7 @@
       "price": 17,
       "stock": 10,
       "img": "leggingris.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 6,
@@ -51,7 +51,7 @@
       "price": 17,
       "stock": 10,
       "img": "legginleopardo.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 7,
@@ -60,7 +60,7 @@
       "price": 18,
       "stock": 10,
       "img": "legginmorado.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 8,
@@ -69,7 +69,7 @@
       "price": 18,
       "stock": 10,
       "img": "legginnaranja.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 9,
@@ -78,7 +78,7 @@
       "price": 16,
       "stock": 10,
       "img": "legginnegro.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 10,
@@ -87,7 +87,7 @@
       "price": 15,
       "stock": 20,
       "img": "legginnegrovino.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 11,
@@ -96,7 +96,7 @@
       "price": 15,
       "stock": 20,
       "img": "legginplateado.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 12,
@@ -105,7 +105,7 @@
       "price": 19,
       "stock": 6,
       "img": "legginpride.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 13,
@@ -114,7 +114,7 @@
       "price": 19,
       "stock": 6,
       "img": "legginrosado.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 14,
@@ -123,7 +123,7 @@
       "price": 13,
       "stock": 10,
       "img": "legginverde.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
       "id": 15,
@@ -132,7 +132,7 @@
       "price": 15,
       "stock": 10,
       "img": "legginverdeagua.jpg",
-      "category": "sport"
+      "category": "damas"
   },
   {
     "id": 16,
@@ -141,6 +141,78 @@
       "price": 15,
       "stock": 10,
       "img": "legginvinotinto.jpg",
-      "category": "sport"
+      "category": "damas"
+  },
+  {
+    "id": 17,
+      "title": "Calza Arena hombre",
+      "size": "medium",
+      "price": 20,
+      "stock": 10,
+      "img": "calzaarenahombre.jpg",
+      "category": "caballeros"
+  },
+  {
+    "id": 18,
+      "title": "Calza Azul Marino hombre",
+      "size": "medium",
+      "price": 20,
+      "stock": 10,
+      "img": "calzaazulmarinohombre.jpg",
+      "category": "caballeros"
+  },
+  {
+    "id": 19,
+      "title": "Calza Beige Hombre",
+      "size": "medium",
+      "price": 20,
+      "stock": 10,
+      "img": "calzabeigehombre.jpg",
+      "category": "caballeros"
+  },
+  {
+    "id": 20,
+      "title": "Calza Blanca Hombre",
+      "size": "medium",
+      "price": 20,
+      "stock": 10,
+      "img": "calzabeigehombre.jpg",
+      "category": "caballeros"
+  },
+  {
+    "id": 21,
+      "title": "Calza Gris Hombre",
+      "size": "medium",
+      "price": 20,
+      "stock": 10,
+      "img": "calzagrishombre.jpg",
+      "category": "caballeros"
+  },
+  {
+    "id": 22,
+      "title": "Calza Marron Hombre",
+      "size": "medium",
+      "price": 20,
+      "stock": 10,
+      "img": "calzamarronhombre.jpg",
+      "category": "caballeros"
+  },
+  {
+    "id": 23,
+      "title": "Calza Negra Hombre",
+      "size": "medium",
+      "price": 20,
+      "stock": 10,
+      "img": "calzanegrahombre.jpg",
+      "category": "caballeros"
+  },
+  {
+    "id": 24,
+      "title": "Calza Verde Oliva Hombre",
+      "size": "medium",
+      "price": 20,
+      "stock": 10,
+      "img": "calzaverdeolivahombre.jpg",
+      "category": "caballeros"
   }
 ]
